@@ -8,11 +8,6 @@ $(document).ready(function() {
 	at: "center",
 	of: window
 	});
-	$( "#container2" ).draggable().position({
-	my: "center",
-	at: "center",
-	of: window
-	});
 });
 
 function openNotes() {
@@ -21,7 +16,12 @@ function openNotes() {
 	$htmlDoc.load("./notes/notes.html");
 
 	document.getElementById('moreContent').appendChild($htmlDoc.html);
-
+	
+	$( "#container2" ).draggable().position({
+	my: "center",
+	at: "center",
+	of: window
+	});
 	//$( "#container2" ).draggable().position({
 	//my: "center",
 	//at: "center",
