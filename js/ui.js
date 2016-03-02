@@ -10,10 +10,6 @@ $(document).ready(function() {
 	});
 });
 
-$when($.ajax(openNotes())).then(function() {
-	dragCreation();
-}
-
 function openNotes() {
 	var $htmlDoc = jQuery("#moreContent");
 	$htmlDoc.load("./notes/notes.html");
