@@ -9,25 +9,10 @@ $(document).ready(function() {
 	of: window
 	});
 });
-
-$(document).onchange(function() {
-	$( "#container" ).draggable().position({
-	my: "center",
-	at: "center",
-	of: window
-	});
-	$( "#container2" ).draggable().position({
-	my: "center",
-	at: "center",
-	of: window
-	});
-});
 function openNotes() {
 	var $htmlDoc = jQuery("#moreContent");
-	$htmlDoc.addClass("noteview");
 	$htmlDoc.load("./notes/notes.html");
 
-	document.getElementById('moreContent').appendChild($htmlDoc.html);
 	//$( "#container2" ).draggable().position({
 	//my: "center",
 	//at: "center",
