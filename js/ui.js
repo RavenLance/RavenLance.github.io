@@ -11,7 +11,14 @@ $(document).ready(function() {
 });
 
 function openNotes() {
-	document.write("./notes/notes.html");
+	var div = document.createElement('div');
+
+	div.className = 'noteview';
+
+	div.innerHTML.load('./notes/notes.html');
+
+	document.getElementById('content').appendChild(div);
+
 	//$( "#container2" ).draggable().position({
 	//my: "center",
 	//at: "center",
