@@ -11,7 +11,7 @@ $(document).ready(function() {
 });
 
 function openNotes() {
-	document.write(./notes/notes.html);
+	document.write("./notes/notes.html");
 	//$( "#container2" ).draggable().position({
 	//my: "center",
 	//at: "center",
