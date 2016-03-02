@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 });
 
-$(container).ready(function() {
+$(#container).ready(function() {
 	$( "#container" ).draggable().position({
 	my: "center",
 	at: "center",
