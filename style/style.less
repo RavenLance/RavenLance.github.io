@@ -54,13 +54,8 @@ input {
 	font-size: 13px;
 	color: #B8D68C;
 }
-
-.PS1:nth-of-type(2)::after {
-	content: " google -search ";
-	margin: 0 0 0 6px;
-	font-size: 13px;
-	color: #B8D68C;
-}
+.search::before { content: "google -search '"; color:@2;}
+.search::after { content: "'"; color:@2;}
 .at::before {content: @user;color:@2;}
 .at {float: left;color:@15;}
 .at::after {content: @host;color:@12;}
