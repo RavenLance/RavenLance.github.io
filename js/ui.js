@@ -20,7 +20,7 @@ function openNotes() {
 	$htmlDoc.addClass("noteview");
 	$htmlDoc.load("./notes/notes.html");
 
-	document.getElementById('content').appendChild($htmlDoc.html);
+	document.getElementById('moreContent').appendChild($htmlDoc.html);
 
 	//$( "#container2" ).draggable().position({
 	//my: "center",
