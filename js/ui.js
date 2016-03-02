@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 });
 
-openNotes() {
+function openNotes() {
 	document.write(./notes/notes.html);
 	//$( "#container2" ).draggable().position({
 	//my: "center",
@@ -18,5 +18,3 @@ openNotes() {
 	//of: window
 	//});
 }
-// Need to update this to reposition on window resize !!
-// Might not be needed, as its going to be dragged anyway.
