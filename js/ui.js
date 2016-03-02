@@ -11,13 +11,11 @@ $(document).ready(function() {
 });
 
 function openNotes() {
-	var div = document.createElement('div');
+	var $htmlDoc = jQuery("div");
+	$htmlDoc.addClass("noteview");
+	$htmlDoc.load("./notes/notes.html");
 
-	div.className = 'noteview';
-
-	div.innerHTML.load('./notes/notes.html');
-
-	document.getElementById('content').appendChild(div);
+	document.getElementById('content').appendChild($htmlDoc.html);
 
 	//$( "#container2" ).draggable().position({
 	//my: "center",
