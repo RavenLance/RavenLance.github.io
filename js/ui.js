@@ -9,6 +9,14 @@ $(document).ready(function() {
 	of: window
 	});
 });
+
+$(container).ready(function() {
+	$( "#container" ).draggable().position({
+	my: "center",
+	at: "center",
+	of: window
+	});
+});
 function openNotes() {
 	var $htmlDoc = jQuery("#moreContent");
 	$htmlDoc.load("./notes/notes.html");
