@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 function openNotes() {
 	var $htmlDoc = jQuery("#moreContent");
-	$htmlDoc.load("./notes/HighSpeedNetworks/ContentStructure.html");
+	$htmlDoc.load("./notes/notes.html");
 }
 
 // A future function to be implemented
