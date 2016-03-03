@@ -40,7 +40,11 @@
 
   <!-- This script makes things draggable, which is kinda fun -->
   <script>
-  $( "#container2" ).draggable();
+  $( "#container2" ).draggable().position({
+  my: "center",
+  at: "center",
+  of: window
+  });
   $(function() {
     $( "#menuNotes" ).menu();
   });
