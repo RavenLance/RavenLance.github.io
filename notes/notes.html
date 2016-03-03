@@ -24,19 +24,29 @@
 -->
 
 <div id="container2">
+  <!-- This script creates the menu functionality -->
+  <script>
+    $(function() {
+      $( "#menuNotes" ).menu();
+    });
+    </script>
+
+  <!-- ho ho! what a wonderful header -->
   <h1>Notes</h1>
-  <ul class="menu">
+  <ul id="menuNotes">
     <li class="ui-state-disabled">High Speed Networks
       <ul>
         <li><button value="Testing"></button></li>
       </ul>
     </li>
   </ul>
-      <script>
-      $( "#container2" ).draggable().position({
-      my: "center",
-      at: "center",
-      of: window
-      });
-      </script>
+
+  <!-- This script makes things draggable, which is kinda fun -->
+  <script>
+  $( "#container2" ).draggable().position({
+  my: "center",
+  at: "center",
+  of: window
+  });
+  </script>
 </div>
