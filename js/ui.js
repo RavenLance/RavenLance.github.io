@@ -2,6 +2,9 @@
 // use a custom userChrome.css that modifies
 // the browsers default content display.
 // UI mods should not affect it.
+
+var
+
 $(document).ready(function() {
 	$( "#container" ).draggable().position({
 	my: "center",
@@ -12,9 +15,12 @@ $(document).ready(function() {
 
 function openNotes() {
 	var $htmlDoc = jQuery("#moreContent");
-	$htmlDoc.appendTo.load("./notes/notes.html");
+	$htmlDoc.load("./notes/notes.html");
 }
 
 // A future function to be implemented
 // When the notes section becomes filled
-function fillNotes() {}
+function fillNotes(urlName) {
+	var $htmlDoc = jQuery("#moreContent2");
+	$htmldoc.load(urlName);
+}
