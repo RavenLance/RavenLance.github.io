@@ -3,8 +3,6 @@
 // the browsers default content display.
 // UI mods should not affect it.
 
-var
-
 $(document).ready(function() {
 	$( "#container" ).draggable().position({
 	my: "center",
