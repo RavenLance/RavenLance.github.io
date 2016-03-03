@@ -18,7 +18,7 @@ function openNotes() {
 
 // A future function to be implemented
 // When the notes section becomes filled
-function fillNotes(urlName) {
+function fillNotes() {
 	var $htmlDoc = jQuery("#moreContent2");
 	$htmlDoc.load("./notes/HighSpeedNetworks/ContentStructure.html");
 }
