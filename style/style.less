@@ -2,7 +2,7 @@
 @import "elements";
 @import "config";
 body {background: @0 url('bg.png') repeat;}
-h1 {color:@7;}
+h1 {color:@7; font-family:@font;}
 a {
 	color:@7;
 	text-decoration: none;
@@ -48,8 +48,16 @@ input {
 	color:@8;
 }
 
-#container2 {
-	//padding: 1.0em;
+#moreContent2 {
+	background-color:@0;
+	font-family:@font;
+	font-size: 13px;
+	width: 585px;
+	height: 290px;
+	padding: 5px;
+	border: 6px solid @8;
+	color:@8;
+	overflow: scroll;
 }
 
 #search {
