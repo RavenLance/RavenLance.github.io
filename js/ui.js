@@ -23,5 +23,5 @@ function fillNotes() {
 	var $htmlDoc = jQuery("#moreContent2");
 	$htmlDoc.load("./notes/HighSpeedNetworks/ContentStructure.html");
 
-	$('#moreContent2').append("");
+	$('#moreContent2').append(#dragScript);
 }
