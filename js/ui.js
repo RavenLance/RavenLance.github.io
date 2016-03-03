@@ -17,7 +17,6 @@ function openNotes() {
 	dragCreation();
 }
 
-
-function dragCreation() {
-	$( "#container2" ).draggable();
-}
+// A future function to be implemented
+// When the notes section becomes filled
+function fillNotes() {}
