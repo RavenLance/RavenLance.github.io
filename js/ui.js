@@ -13,8 +13,6 @@ $(document).ready(function() {
 function openNotes() {
 	var $htmlDoc = jQuery("#moreContent");
 	$htmlDoc.load("./notes/notestest.html");
-
-	dragCreation();
 }
 
 // A future function to be implemented
