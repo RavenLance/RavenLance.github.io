@@ -18,10 +18,10 @@ function openNotes() {
 
 // A future function to be implemented
 // When the notes section becomes filled
-function fillNotes() {
+function fillNotes(urlName) {
 	var $dragScript = "$( '#moreContent2' ).draggable()"
 	var $htmlDoc = jQuery("#moreContent2");
-	$htmlDoc.load("./notes/HighSpeedNetworks/ContentStructure.html");
+	$htmlDoc.load(urlName);
 
 	$('#moreContent2').append("<script>$( '#moreContent2' ).draggable()</script>");
 }
