@@ -15,13 +15,3 @@ function openNotes() {
 	var $htmlDoc = jQuery("#moreContent");
 	$htmlDoc.load("./notes/notes.html");
 }
-
-// A future function to be implemented
-// When the notes section becomes filled
-function fillNotes(urlName) {
-	var $dragScript = "$( '#moreContent2' ).draggable()"
-	var $htmlDoc = jQuery("#moreContent2");
-	$htmlDoc.load(urlName);
-
-	$('#moreContent2').append("<script>$( '#moreContent2' ).draggable()</script>");
-}
